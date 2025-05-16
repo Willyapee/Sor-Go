@@ -44,7 +44,7 @@ export default function About(){
                     </div>
                 </div>
 
-                <div className="w-full flex justify-center gap-8 sm:gap-20 md:gap-35 lg:gap-40 mt-18 sm:mt-19 md:mt-16 lg:mt-10 ">
+                <div className="w-full flex justify-center gap-8 sm:gap-20 md:gap-35 lg:gap-40 mt-16 sm:mt-19 md:mt-16 lg:mt-10 ">
                     <div className='relative flex flex-col items-center lg:w-[220px] '>
                         <div className='relative mt-10'>
                             <div className="-mt-4 sm:-mt-6 md:-mt-8 lg:-mt-10 absolute -rotate-25 flex flex-col items-center">
