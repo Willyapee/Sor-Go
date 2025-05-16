@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Why(){
     return (
         <>  
-            <div className="h-screen relative flex flex-col items-center">
+            <div className="min-h-screen relative flex flex-col items-center">
                 <div className='flex flex-col items-center justify-center mt-15'>
                     <p className=" underline bg-yellow-300 font-bold text-3xl">why us?</p>
                     <img className="w-[120px] h-auto" src="./Logo.png" alt="Gambar" />
