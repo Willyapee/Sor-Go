@@ -83,7 +83,7 @@ export default function About(){
                     </div>
                 </div>
             </div>
-            <div className='mt-15 flex flex-col mb-20'>
+            <div className='mt-20 flex flex-col mb-20'>
                 <div className='ml-5 flex'>
                     <img className='sm:w-[80%] md:w-[70%] lg:w-[60%] h-auto' src="./abFull1.png" alt="Gambar" />
                 </div>
