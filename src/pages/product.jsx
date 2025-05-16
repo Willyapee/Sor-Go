@@ -16,7 +16,7 @@ export default function Product() {
                     </div>
                 </Link>
             </div >
-            <div className='relative h-[460px] w-full flex flex-col items-center justify-center mt-10'>
+            <div className='relative h-[480px] w-full flex flex-col items-center justify-center mt-10'>
                 <img className='h-auto w-[62.5%] sm:w-[60%]' src="./Prod1.png" alt="" />
                 <div className='flex items-center justify-center mt-16 lg:mt-13 gap-10 '>
                     <img className='w-[15%] lg:w-[12%] h-auto' src="ProdIng1.png" alt="" />

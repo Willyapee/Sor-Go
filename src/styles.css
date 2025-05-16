@@ -28,15 +28,15 @@ body{
 }
 
 .arrR:hover {
-    content: url('./arrowR1.png');
+    content: url('/arrowR1.png');
 }
 
 .arrL:hover {
-    content: url('./arrowL1.png');
+    content: url('/arrowL1.png');
 }
 
 .homeBut:hover .homePic{
-    content: url('./Home1.png');
+    content: url('/Home1.png');
 }
 
 .homeBut:hover .homeText{
@@ -44,7 +44,7 @@ body{
 }
 
 .glow1 {
-    background-image: url('./Glow1.png');
+    background-image: url('/Glow1.png');
     animation: changeImage 1s steps(1) infinite;
 }
 
