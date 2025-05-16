@@ -45,11 +45,6 @@ body{
     color: black;
 }
 
-.glow1 {
-    background-image: url('./Glow1.png');
-    animation: changeImage 1s steps(1) infinite;
-}
-
 .prodContainer::-webkit-scrollbarP{
     display: none;
 }
