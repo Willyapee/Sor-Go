@@ -17,7 +17,7 @@ export default function Product1() {
                 </Link>
             </div >
             <div className='relative h-[480px] w-full flex flex-col items-center justify-center mt-10'>
-                <img className='h-auto w-[62.5%] sm:w-[60%]' src="./Prod2.png" alt="" />
+                <img className='h-auto w-[62.5%] sm:w-[60%]' src="./Prod3.png" alt="" />
                 <div className='flex items-center justify-center mt-16 lg:mt-13 gap-10 '>
                     <img className='w-[15%] lg:w-[12%] h-auto' src="ProdIng3.png" alt="" />
                     <img className='w-[15%] lg:w-[12%] h-auto' src="ProdIng4.png" alt="" />
