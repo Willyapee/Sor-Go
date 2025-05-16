@@ -16,7 +16,7 @@ export default function About(){
                     </div>
                 </Link>
 
-                <div className='relative w-[400px] sm:w-[500px] md:w-[630px] lg:w-[850px] h-20 sm:h-28 md:h-33 lg:h-35 flex mt-24 sm:mt-17 md:mt-12 lg:mt-10'>
+                <div className='relative w-[65%] sm:w-[500px] md:w-[630px] lg:w-[850px] h-30 sm:h-28 md:h-33 lg:h-35 flex mt-24 sm:mt-17 md:mt-12 lg:mt-10'>
                     <div className='absolute -mt-26.5 -ml-10 sm:-ml-15 md:-ml-17 lg:-ml-20 rounded-full flex items-center justify-center z-1'>
                         <div className='relative mt-10'>
                             <div className="mt-2 sm:mt-2 md:mt-0 lg:-mt-2 absolute -rotate-25 flex flex-col items-center">
@@ -42,7 +42,7 @@ export default function About(){
                     </div>
                 </div>
 
-                <div className="w-full flex justify-center gap-15 sm:gap-27.5 md:gap-35 lg:gap-40 mt-18 sm:mt-19 md:mt-16 lg:mt-10 ">
+                <div className="w-full flex justify-center gap-8 sm:gap-27.5 md:gap-35 lg:gap-40 mt-18 sm:mt-19 md:mt-16 lg:mt-10 ">
                     <div className='relative flex flex-col items-center lg:w-[220px] '>
                         <div className='relative mt-10'>
                             <div className="-mt-4 sm:-mt-6 md:-mt-8 lg:-mt-10 absolute -rotate-25 flex flex-col items-center">

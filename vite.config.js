@@ -8,5 +8,5 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
-  base: '/Sor-Go',
+  base:'/Sor-Go',
 })
