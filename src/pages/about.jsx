@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function About(){
     return (
         <>        
-            <div className="min-h-screen relative flex flex-col items-center">
+            <div className="relative flex flex-col items-center">
                 <div className='flex flex-col items-center justify-center mt-15'>
                     <p className=" underline bg-yellow-300 font-bold text-3xl">about</p>
                     <img className="w-[120px] h-auto" src="./Logo.png" alt="Gambar" />
@@ -83,7 +83,7 @@ export default function About(){
                     </div>
                 </div>
             </div>
-            <div className='mt-10 flex flex-col mb-20'>
+            <div className='mt-15 flex flex-col mb-20'>
                 <div className='ml-5 flex'>
                     <img className='sm:w-[80%] md:w-[70%] lg:w-[60%] h-auto' src="./abFull1.png" alt="Gambar" />
                 </div>
