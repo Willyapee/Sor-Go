@@ -17,6 +17,7 @@ export default function Why(){
                 </Link>
 
                 <img className="w-[250px] sm:w-[325px] md:w-[350px] lg:w-[375px] h-auto top-95 left-1/2 absolute transform -translate-x-1/2 -translate-y-1/2" src="./Sorghum.png" alt="Gambar" />
+                <img className="grow w-[250px] sm:w-[325px] md:w-[350px] lg:w-[375px] h-auto top-95 left-1/2 absolute transform -translate-x-1/2 -translate-y-1/2 z-1" src="./SorghumGlow.png" alt="Gambar" />
                 
                 <div className='h-[350px] grid grid-cols-3 gap-8 sm:gap-25 md:gap-25 lg:gap-30 items-center mt-10 sm:mt-10.5 md:mt-10.5 mx-auto'>
                     <div className='flex flex-col space-y-20'>
@@ -32,10 +33,10 @@ export default function Why(){
                     </div>
                     
                     <div className='flex flex-col items-center justify-center z-10'>
-                        <span className='inline-block underline italic bg-yellow-300 font-bold md:text-xl lg:text-2xl'>
+                        <span className='inline-block underline italic bg-yellow-300 font-bold text-2xl md:text-2xl lg:text-3xl'>
                             sorghum
                         </span>
-                        <span className='inline-block underline italic bg-yellow-300 font-bold md:text-xl lg:text-2xl ml-1'>
+                        <span className='inline-block underline italic bg-yellow-300 font-bold text-2xl md:text-2xl lg:text-3xl ml-1'>
                             based
                         </span>
                     </div>
@@ -45,7 +46,7 @@ export default function Why(){
                         <div className='mr-4 sm:mr-6 md:mr-8 lg:mr-10 text-center'>
                             <p className='underline text-white font-bold text-sm md:text-xl lg:text-2xl'>Good source of<br></br>protein</p>
                         </div>
-                        <div className='ml-9 sm:ml-11 md:ml-13 lg:ml-15 '>
+                        <div className='ml-9 sm:ml-11 md:ml-13 lg:ml-15 text-center'>
                             <p className='underline text-white font-bold text-sm md:text-xl lg:text-2xl'>Gluten-free rice</p>
                         </div>
                         <div className='mr-4 sm:mr-6 md:mr-8 lg:mr-10 text-center'>
@@ -56,12 +57,6 @@ export default function Why(){
 
                 <p className=' text-white font-bold text-1xl mt-17 z-10'>Sorghum on the go!</p>
             </div>
-
-            
-            
-                
-                    
-        
         </>
     )
 }

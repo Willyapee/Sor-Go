@@ -18,7 +18,7 @@ export default function Contact() {
 
                 <div className='flex flex-col md:flex-row lg:flex-row -mt-10 mx-auto w-full justify-center'>
                     <div className='flex justify-center md:justify-end'>
-                        <img className=" -mt-15 md:-mt-10 lg:-mt-30 mr-15 w-95 sm:w-95 md:w-70 lg:w-103 h-auto" src="./conTestimonial.png" alt="Gambar" />
+                        <img className=" -mt-15 md:-mt-10 lg:-mt-30 mr-15 w-[70%] sm:w-95 md:w-70 lg:w-103 h-auto" src="./conTestimonial.png" alt="Gambar" />
                     </div>
 
                     <div className='flex flex-col items-center md:items-start -mt-10 md:mt-0'>

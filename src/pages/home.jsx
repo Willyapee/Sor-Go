@@ -12,13 +12,15 @@ export default function Home() {
                     </div>
 
                     <img className=" w-[300px] h-auto absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10" src="./Logo.png" alt="Gambar" />
-                    <img className="in w-[450px] h-auto absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10" src="./LogoGlow.png" alt="Gambar" />
+                    <img className="growDelayed in w-[450px] h-auto absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10" src="./LogoGlow.png" alt="Gambar" />
                     
                     <div className='flex justify-end gap-9'>
                         <Link to="/product" className='underline bg-yellow-300 font-bold text-xl sm:text-xl md:text-2xl lg:text-3xl'>our product</Link>
                         <Link to="/contact" className='underline bg-yellow-300 font-bold text-xl sm:text-xl md:text-2xl lg:text-3xl'>contact us</Link>
                     </div>
                 </div>
+                <img className="fade-in-left absolute bottom-0 left-0 w-[50%]" src="./homeC1.png" alt="" />
+                <img className="fade-in-right absolute top-0 right-0 w-[50%]" src="./homeC2.png" alt="" />
             </div>
         </>
     );

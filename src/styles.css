@@ -9,6 +9,8 @@
     url("https://db.onlinewebfonts.com/t/0435447fd9d43de93de189e00f2f3dcf.svg#Cerebri Sans Pro")format("svg");
 } 
 
+  /*  */
+
 html, body {
   height: auto;
   overflow-y: auto;
@@ -44,7 +46,7 @@ body{
 }
 
 .glow1 {
-    background-image: url('/Glow1.png');
+    background-image: url('./Glow1.png');
     animation: changeImage 1s steps(1) infinite;
 }
 
@@ -69,4 +71,53 @@ body{
     animation: blink 0.8s infinite;
 }
 
+@keyframes pulseGrow {
+  0%, 100% {
+    transform:  scale(1);
+  }
+  50% {
+    transform:  scale(1.1);
+  }
+}
 
+.grow {
+  animation: pulseGrow 1s infinite;
+
+  animation-timing-function: linear;
+}
+
+.growDelayed {
+  animation: pulseGrow 1s infinite;
+  animation-delay: 0.5s;
+
+  animation-timing-function: linear;
+}
+
+
+@keyframes fade-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-left {
+  animation: fade-in-left 0.5s ease-out forwards;
+}
+
+@keyframes fade-in-right {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.fade-in-right {
+  animation: fade-in-right 0.5s ease-out forwards;
+}
