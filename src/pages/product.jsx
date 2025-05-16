@@ -25,6 +25,7 @@ export default function Product() {
                 </div>
                 <p className=' text-white font-bold sm:text-base lg:text-1xl mt-14 lg:mt-10 z-10'>per-serving 105 kcal</p>
             </div>
+
             <Link to="/product2">
                 <img src="./arrowL.png" className="arrL absolute w-[15%] h-auto top-1/2 left-0 transform -translate-y-1/2 z-10" alt="Gambar"/>
             </Link>
